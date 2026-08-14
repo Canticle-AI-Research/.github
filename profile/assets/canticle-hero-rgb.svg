@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc">
+  <title id="title">Canticle Research — provenance-first memory systems for AI agents</title>
+  <desc id="desc">A dark research dashboard showing Canticle, SEAM, and a source-linked memory path from evidence to bounded context.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070807"/>
+      <stop offset="0.58" stop-color="#11101a"/>
+      <stop offset="1" stop-color="#0a1418"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f780e2"/>
+      <stop offset="0.55" stop-color="#c4a7e7"/>
+      <stop offset="1" stop-color="#7dcfff"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#f780e2" stop-opacity=".24"/>
+      <stop offset=".54" stop-color="#7dcfff" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#070807" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#7dcfff" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="signal-glow" x="-30%" y="-40%" width="160%" height="180%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect width="1200" height="470" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="470" fill="url(#bg)"/>
+    <rect width="1200" height="470" fill="url(#grid)"/>
+    <ellipse cx="910" cy="226" rx="340" ry="310" fill="url(#halo)"/>
+    <path d="M0 427C215 387 358 405 525 438S870 486 1200 390" fill="none" stroke="#f780e2" stroke-opacity=".14" stroke-width="1"/>
+    <path d="M0 443C232 401 369 422 536 453S876 501 1200 407" fill="none" stroke="#7dcfff" stroke-opacity=".1" stroke-width="1"/>
+
+    <g transform="translate(48 42)" filter="url(#signal-glow)">
+      <rect width="59" height="40" rx="9" fill="#0a0b0a" stroke="#f7768e" stroke-width="2">
+        <animate attributeName="stroke" values="#f7768e;#ff9e64;#e0af68;#9ece6a;#7dcfff;#7aa2f7;#e478d0;#f7768e" keyTimes="0;.14;.28;.42;.57;.71;.85;1" dur="8s" repeatCount="indefinite"/>
+      </rect>
+      <text x="11" y="27" fill="#9ece6a" font-family="'Fira Code','JetBrains Mono','Cascadia Mono',ui-monospace,monospace" font-size="18" font-weight="700">❯</text>
+      <rect x="41" y="10" width="9" height="20" fill="#f7768e">
+        <animate attributeName="fill" values="#f7768e;#ff9e64;#e0af68;#9ece6a;#7dcfff;#7aa2f7;#e478d0;#f7768e" keyTimes="0;.14;.28;.42;.57;.71;.85;1" dur="8s" repeatCount="indefinite"/>
+      </rect>
+      <text x="78" y="29" fill="#f7768e" font-family="'Fira Code','JetBrains Mono','Cascadia Mono',ui-monospace,monospace" font-size="27" font-weight="700" letter-spacing=".5">Canticle
+        <animate attributeName="fill" values="#f7768e;#ff9e64;#e0af68;#9ece6a;#7dcfff;#7aa2f7;#e478d0;#f7768e" keyTimes="0;.14;.28;.42;.57;.71;.85;1" dur="8s" repeatCount="indefinite"/>
+      </text>
+      <text x="79" y="51" fill="#a9b1d6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="3.2">INDEPENDENT AI RESEARCH</text>
+    </g>
+    <circle cx="489" cy="69" r="4" fill="#02bf87" filter="url(#glow)"/>
+    <text x="502" y="73" fill="#73daca" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.8">SOURCE LINK ACTIVE</text>
+
+    <text x="48" y="170" fill="#f780e2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="3">SEAM / AGENT MEMORY</text>
+    <text x="46" y="221" fill="#fffdf5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="44" font-weight="750">Memory with</text>
+    <text x="46" y="273" fill="url(#signal)" filter="url(#signal-glow)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="44" font-weight="750">evidence intact.</text>
+    <text x="48" y="313" fill="#a9b1d6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">Canonical records. Rebuildable indexes.</text>
+    <text x="48" y="338" fill="#a9b1d6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">Token-bounded context with provenance.</text>
+
+    <g transform="translate(48 381)">
+      <rect width="160" height="34" rx="5" fill="#f780e2" fill-opacity=".08" stroke="#f780e2" stroke-opacity=".45"/>
+      <text x="80" y="22" text-anchor="middle" fill="#f780e2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1.4">LOCAL-FIRST</text>
+      <rect x="174" width="178" height="34" rx="5" fill="#c4a7e7" fill-opacity=".08" stroke="#c4a7e7" stroke-opacity=".45"/>
+      <text x="263" y="22" text-anchor="middle" fill="#c4a7e7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1.2">SOURCE-LINKED</text>
+      <rect x="366" width="210" height="34" rx="5" fill="#7dcfff" fill-opacity=".08" stroke="#7dcfff" stroke-opacity=".45"/>
+      <text x="471" y="22" text-anchor="middle" fill="#7dcfff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1.1">OPERATOR-REVIEWED</text>
+    </g>
+
+    <g transform="translate(670 62)">
+      <rect width="480" height="346" rx="13" fill="#0e1110" fill-opacity=".88" stroke="#3b3d57"/>
+      <path d="M0 44H480" stroke="#3b3d57"/>
+      <circle cx="22" cy="22" r="4" fill="#f780e2"/><circle cx="38" cy="22" r="4" fill="#c4a7e7"/><circle cx="54" cy="22" r="4" fill="#7dcfff"/>
+      <text x="76" y="27" fill="#a9b1d6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.5">CANONICAL MEMORY PATH</text>
+
+      <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+        <path d="M70 116H386" stroke="url(#signal)" stroke-width="2" stroke-dasharray="5 7"/>
+        <path d="M377 109L390 116L377 123" fill="none" stroke="#7dcfff" stroke-width="2"/>
+        <g transform="translate(28 88)">
+          <rect width="92" height="57" rx="7" fill="#17151e" stroke="#f780e2"/>
+          <text x="46" y="25" text-anchor="middle" fill="#f780e2" font-size="13" font-weight="700">RAW</text>
+          <text x="46" y="42" text-anchor="middle" fill="#565f89" font-size="9">EVIDENCE</text>
+        </g>
+        <g transform="translate(142 88)">
+          <rect width="92" height="57" rx="7" fill="#17151e" stroke="#c4a7e7"/>
+          <text x="46" y="25" text-anchor="middle" fill="#c4a7e7" font-size="13" font-weight="700">MIRL</text>
+          <text x="46" y="42" text-anchor="middle" fill="#565f89" font-size="9">SEMANTICS</text>
+        </g>
+        <g transform="translate(256 88)">
+          <rect width="92" height="57" rx="7" fill="#17151e" stroke="#02bf87"/>
+          <text x="46" y="25" text-anchor="middle" fill="#73daca" font-size="13" font-weight="700">SQLITE</text>
+          <text x="46" y="42" text-anchor="middle" fill="#565f89" font-size="9">CANONICAL</text>
+        </g>
+        <g transform="translate(370 88)">
+          <rect width="82" height="57" rx="7" fill="#17151e" stroke="#7dcfff"/>
+          <text x="41" y="25" text-anchor="middle" fill="#7dcfff" font-size="13" font-weight="700">PACK</text>
+          <text x="41" y="42" text-anchor="middle" fill="#565f89" font-size="9">CONTEXT</text>
+        </g>
+
+        <path d="M302 146V188" stroke="#02bf87" stroke-opacity=".7"/>
+        <path d="M296 180L302 190L308 180" fill="none" stroke="#02bf87"/>
+        <rect x="101" y="190" width="302" height="84" rx="42" fill="none" stroke="#7dcfff" stroke-opacity=".28"/>
+        <ellipse cx="252" cy="232" rx="112" ry="53" fill="#7dcfff" fill-opacity=".03" stroke="#c4a7e7" stroke-opacity=".36"/>
+        <ellipse cx="252" cy="232" rx="58" ry="28" fill="#f780e2" fill-opacity=".06" stroke="#f780e2" stroke-opacity=".48"/>
+        <circle cx="252" cy="232" r="7" fill="#02bf87" filter="url(#glow)"/>
+        <text x="252" y="220" text-anchor="middle" fill="#fffdf5" font-size="12" font-weight="700">RETRIEVAL</text>
+        <text x="252" y="250" text-anchor="middle" fill="#a9b1d6" font-size="10" letter-spacing="1.2">LEX · VECTOR · GRAPH · TIME</text>
+        <text x="27" y="314" fill="#565f89" font-size="10">PROVENANCE</text>
+        <path d="M113 311H427" stroke="#f780e2" stroke-opacity=".45"/>
+        <circle cx="136" cy="311" r="4" fill="#f780e2"/><circle cx="224" cy="311" r="4" fill="#c4a7e7"/><circle cx="312" cy="311" r="4" fill="#02bf87"/><circle cx="400" cy="311" r="4" fill="#7dcfff"/>
+      </g>
+    </g>
+  </g>
+  <rect x=".75" y=".75" width="1198.5" height="468.5" rx="17.25" fill="none" stroke="url(#signal)" stroke-opacity=".52" stroke-width="1.5"/>
+</svg>
