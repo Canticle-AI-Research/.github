@@ -24,6 +24,10 @@
       <feGaussianBlur stdDeviation="7" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <filter id="signal-glow" x="-30%" y="-40%" width="160%" height="180%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
     <clipPath id="frame"><rect width="1200" height="470" rx="18"/></clipPath>
   </defs>
 
@@ -34,7 +38,7 @@
     <path d="M0 427C215 387 358 405 525 438S870 486 1200 390" fill="none" stroke="#f780e2" stroke-opacity=".14" stroke-width="1"/>
     <path d="M0 443C232 401 369 422 536 453S876 501 1200 407" fill="none" stroke="#7dcfff" stroke-opacity=".1" stroke-width="1"/>
 
-    <g transform="translate(48 42)">
+    <g transform="translate(48 42)" filter="url(#signal-glow)">
       <rect width="52" height="52" fill="#070807"/>
       <rect x="6.5" y="6.5" width="39" height="39" fill="#0e1110" stroke="#f780e2" stroke-width="3.25"/>
       <path d="M16.25 17.875h19.5v4.875h-13v6.5h13v4.875h-19.5z" fill="#fffdf5"/>
@@ -47,7 +51,7 @@
 
     <text x="48" y="170" fill="#f780e2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="3">SEAM / AGENT MEMORY</text>
     <text x="46" y="221" fill="#fffdf5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="44" font-weight="750">Memory with</text>
-    <text x="46" y="273" fill="url(#signal)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="44" font-weight="750">evidence intact.</text>
+    <text x="46" y="273" fill="url(#signal)" filter="url(#signal-glow)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="44" font-weight="750">evidence intact.</text>
     <text x="48" y="313" fill="#a9b1d6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">Canonical records. Rebuildable indexes.</text>
     <text x="48" y="338" fill="#a9b1d6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">Token-bounded context with provenance.</text>
 

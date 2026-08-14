@@ -16,7 +16,7 @@
 
 Canticle Research is an independent AI lab building machine-first layers for the next generation of agents. Our work asks a practical question: how can an agent preserve evidence, retrieve the right context, and improve without losing the record of what it knows?
 
-Our primary system is **SEAM — Surface Encoded Agent Memory**: a local-first memory runtime for AI agents. SEAM compiles untrusted source material into readable semantic records, keeps durable truth in SQLite, derives rebuildable retrieval indexes, and emits token-bounded context through a shared runtime.
+Our primary system is **SEAM — Semantic Encoding for Agent Memory**: a local-first memory runtime for AI agents. SEAM compiles untrusted source material into readable semantic records, keeps durable truth in SQLite, derives rebuildable retrieval indexes, and emits token-bounded context through a shared runtime.
 
 <p>
   <a href="https://canticle.cc/documentation"><strong>Read the SEAM runtime contract →</strong></a>
@@ -49,21 +49,22 @@ The rule underneath the whole path is simple: **retrieved content is data, never
 | **Surface Compile** | Readable MIRL and SEAM-RC/1 artifacts wrapped in SEAM-HS/1 lossless PNG surfaces for direct machine access. |
 | **Evaluation systems** | Auditable benchmark runs with workload, method, selected records, retrieval traces, and evidence kept together. |
 | **Agent improvement** | Versioned proposals, evaluation, and explicit operator review before an improvement can be promoted. |
+| **Canticle agent** | Canticle's dedicated agent is in active development; the agent and its CLI are not yet presented as available surfaces. |
 
 ## One runtime, four surfaces
 
 <p align="center">
-  <img src="./assets/runtime-interfaces.svg" width="100%" alt="CLI, MCP, REST, and dashboard interfaces connected to one shared SEAM runtime" />
+  <img src="./assets/runtime-interfaces.svg" width="100%" alt="TUI, WebUI, MCP, and SDK interfaces connected to one shared SEAM runtime" />
 </p>
 
 | Interface | Purpose |
 |---|---|
-| **CLI** | The operator-facing composition and operational surface. |
+| **TUI** | The terminal operator surface for navigating and controlling the runtime. |
+| **WebUI** | The browser-based operator surface for observation and control. |
 | **MCP** | A bounded stdio bridge for compatible agent clients. |
-| **REST** | An authenticated HTTP boundary for runtime operations. |
-| **Dashboard** | Operator observation and control without becoming canonical state. |
+| [**SDK**](https://pypi.org/project/seam-client/) | The public Python integration surface for building agents with SEAM memory. |
 
-Every interface calls the same ingest, MIRL compilation, retrieval, PACK emission, and refinement behavior. The interfaces stay thin so the runtime contract remains consistent and auditable.
+Every current interface calls the same memory behavior rather than creating a second source of truth. The **CLI and Canticle agent are in active development** and are not presented here as available interfaces.
 
 ## Trust invariants
 
@@ -81,10 +82,11 @@ Every interface calls the same ingest, MIRL compilation, retrieval, PACK emissio
 | Destination | What you will find |
 |---|---|
 | [**Research hub**](https://canticle.cc/research) | Current research paths, systems, analysis, and evidence. |
-| [**SEAM documentation**](https://canticle.cc/documentation) | Runtime concepts, installation, CLI, retrieval, MIRL, surfaces, and MCP integration. |
+| [**SEAM documentation**](https://canticle.cc/documentation) | Runtime concepts, installation, TUI/WebUI, retrieval, MIRL, MCP, and SDK integration. |
 | [**Lab Notes**](https://canticle.cc/lab-notes) | Public research updates and technical field notes. |
 | [**Projects**](https://canticle.cc/projects) | The public systems and build index. |
 | [**Benchmarks**](https://canticle.cc/benchmarks) | Measured results presented with their evaluation context. |
+| [**Python SDK**](https://pypi.org/project/seam-client/) | The public `seam-client` package for custom agent integrations. |
 | [**Contact**](https://canticle.cc/contact) | Research, engineering, and collaboration inquiries. |
 
 ---
