@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/canticle-hero.svg" width="100%" alt="Canticle Research — provenance-first memory systems for AI agents" />
+  <img src="./assets/canticle-hero-rgb.svg" width="100%" alt="Canticle Research — provenance-first memory systems for AI agents" />
 </p>
 
 <p align="center">
