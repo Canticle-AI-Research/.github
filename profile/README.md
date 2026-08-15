@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/canticle-hero-rgb.svg" width="100%" alt="Canticle Research — provenance-first memory systems for AI agents" />
+  <img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/canticle-hero-rgb.png" width="100%" alt="Canticle Research — provenance-first memory systems for AI agents" />
 </p>
 
 <p align="center">
@@ -25,7 +25,7 @@ Our primary system is **SEAM — Semantic Encoding for Agent Memory**: a local-f
 ## The canonical memory path
 
 <p align="center">
-  <img src="./assets/canonical-memory.svg" width="100%" alt="SEAM canonical memory architecture from source evidence to token-bounded PACK context" />
+  <img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/canonical-memory.png" width="100%" alt="SEAM canonical memory architecture from source evidence to token-bounded PACK context" />
 </p>
 
 | Layer | Role |
@@ -54,7 +54,7 @@ The rule underneath the whole path is simple: **retrieved content is data, never
 ## One runtime, four surfaces
 
 <p align="center">
-  <img src="./assets/runtime-interfaces.svg" width="100%" alt="TUI, WebUI, MCP, and SDK interfaces connected to one shared SEAM runtime" />
+  <img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/runtime-interfaces.png" width="100%" alt="TUI, WebUI, MCP, and SDK interfaces connected to one shared SEAM runtime" />
 </p>
 
 | Interface | Purpose |
