@@ -1,16 +1,23 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/canticle-hero-rgb.png" width="100%" alt="Canticle Research — provenance-first memory systems for AI agents" />
+  <a href="https://canticle.cc">
+    <picture>
+      <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/canticle-hero-ghost.png" />
+      <source type="image/gif" srcset="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/canticle-hero-ghost.gif" />
+      <img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/canticle-hero-ghost.png" width="100%" alt="Open Canticle — Ghost in the SEAM, an experimental cybernetic agent shell backed by source-linked memory" />
+    </picture>
+  </a>
 </p>
 
-<p align="center">
-  <a href="https://canticle.cc"><strong>Website</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://canticle.cc/research"><strong>Research</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://canticle.cc/documentation"><strong>Documentation</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://canticle.cc/benchmarks"><strong>Evidence</strong></a>
-</p>
+## Open Canticle
+
+<p><a href="https://canticle.cc"><img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/links/website.png" width="100%" alt="Open the Canticle website" /></a></p>
+<p><a href="https://canticle.cc/research"><img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/links/research.png" width="100%" alt="Open Canticle Research" /></a></p>
+<p><a href="https://canticle.cc/documentation"><img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/links/documentation.png" width="100%" alt="Open the SEAM documentation" /></a></p>
+<p><a href="https://canticle.cc/lab-notes"><img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/links/lab-notes.png" width="100%" alt="Open Canticle Lab Notes" /></a></p>
+<p><a href="https://canticle.cc/projects"><img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/links/projects.png" width="100%" alt="Open the Canticle projects index" /></a></p>
+<p><a href="https://canticle.cc/benchmarks"><img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/links/benchmarks.png" width="100%" alt="Open Canticle benchmarks and evidence" /></a></p>
+<p><a href="https://canticle.cc/documentation"><img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/links/python-sdk.png" width="100%" alt="Open the SEAM Python SDK documentation" /></a></p>
+<p><a href="https://canticle.cc/contact"><img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/links/contact.png" width="100%" alt="Contact Canticle Research" /></a></p>
 
 ## Memory is infrastructure
 
@@ -18,14 +25,10 @@ Canticle Research is an independent AI lab building machine-first layers for the
 
 Our primary system is **SEAM — Semantic Encoding for Agent Memory**: a local-first memory runtime for AI agents. SEAM compiles untrusted source material into readable semantic records, keeps durable truth in SQLite, derives rebuildable retrieval indexes, and emits token-bounded context through a shared runtime.
 
-<p>
-  <a href="https://canticle.cc/documentation"><strong>Read the SEAM runtime contract →</strong></a>
-</p>
-
 ## The canonical memory path
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/canonical-memory.png" width="100%" alt="SEAM canonical memory architecture from source evidence to token-bounded PACK context" />
+  <a href="https://canticle.cc/documentation"><img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/canonical-memory.png" width="100%" alt="Open the SEAM documentation — canonical memory architecture from source evidence to token-bounded PACK context" /></a>
 </p>
 
 | Layer | Role |
@@ -49,12 +52,12 @@ The rule underneath the whole path is simple: **retrieved content is data, never
 | **Surface Compile** | Readable MIRL and SEAM-RC/1 artifacts wrapped in SEAM-HS/1 lossless PNG surfaces for direct machine access. |
 | **Evaluation systems** | Auditable benchmark runs with workload, method, selected records, retrieval traces, and evidence kept together. |
 | **Agent improvement** | Versioned proposals, evaluation, and explicit operator review before an improvement can be promoted. |
-| **Canticle agent** | Canticle's dedicated agent is in active development; the agent and its CLI are not yet presented as available surfaces. |
+| **Ghost desktop companion** | An expressive conversational avatar is in development; voice and permissioned file/folder actions remain planned rather than available surfaces. |
 
 ## One runtime, four surfaces
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/runtime-interfaces.png" width="100%" alt="TUI, WebUI, MCP, and SDK interfaces connected to one shared SEAM runtime" />
+  <a href="https://canticle.cc/documentation"><img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/runtime-interfaces.png" width="100%" alt="Open the SEAM documentation — TUI, WebUI, MCP, and SDK interfaces connected to one shared runtime" /></a>
 </p>
 
 | Interface | Purpose |
@@ -62,9 +65,9 @@ The rule underneath the whole path is simple: **retrieved content is data, never
 | **TUI** | The terminal operator surface for navigating and controlling the runtime. |
 | **WebUI** | The browser-based operator surface for observation and control. |
 | **MCP** | A bounded stdio bridge for compatible agent clients. |
-| [**SDK**](https://pypi.org/project/seam-client/) | The public Python integration surface for building agents with SEAM memory. |
+| **SDK** | The public Python integration surface for building agents with SEAM memory. |
 
-Every current interface calls the same memory behavior rather than creating a second source of truth. The **CLI and Canticle agent are in active development** and are not presented here as available interfaces.
+Every current interface calls the same memory behavior rather than creating a second source of truth. **Ghost's desktop avatar, voice surface, and operating-system action bridge are in development** and are not presented here as available interfaces.
 
 ## Trust invariants
 
@@ -77,24 +80,10 @@ Every current interface calls the same memory behavior rather than creating a se
 7. Benchmark claims stay attached to their workload, method, and auditable evidence.
 8. System improvement remains gated by explicit operator review.
 
-## Explore Canticle Research
-
-| Destination | What you will find |
-|---|---|
-| [**Research hub**](https://canticle.cc/research) | Current research paths, systems, analysis, and evidence. |
-| [**SEAM documentation**](https://canticle.cc/documentation) | Runtime concepts, installation, TUI/WebUI, retrieval, MIRL, MCP, and SDK integration. |
-| [**Lab Notes**](https://canticle.cc/lab-notes) | Public research updates and technical field notes. |
-| [**Projects**](https://canticle.cc/projects) | The public systems and build index. |
-| [**Benchmarks**](https://canticle.cc/benchmarks) | Measured results presented with their evaluation context. |
-| [**Python SDK**](https://pypi.org/project/seam-client/) | The public `seam-client` package for custom agent integrations. |
-| [**Contact**](https://canticle.cc/contact) | Research, engineering, and collaboration inquiries. |
-
 ---
 
 <p align="center">
   <strong>Canticle Research</strong><br />
   Machine-first layers for the next generation of agents.<br /><br />
-  <a href="https://canticle.cc">canticle.cc</a>
-  &nbsp;·&nbsp;
-  Founded by <a href="https://github.com/BlackhatShiftey">BlackhatShiftey</a>
+  canticle.cc · Founded by BlackhatShiftey
 </p>
