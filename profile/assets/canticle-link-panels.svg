@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Canticle visual navigation panels</title>
+  <desc id="desc">Eight terminal-inspired route panels for the Canticle website, research, documentation, lab notes, projects, evidence, SDK, and contact pages.</desc>
+  <defs>
+    <linearGradient id="spectrum" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#f7768e"/><stop offset=".16" stop-color="#ff9e64"/>
+      <stop offset=".31" stop-color="#e0af68"/><stop offset=".46" stop-color="#9ece6a"/>
+      <stop offset=".62" stop-color="#7dcfff"/><stop offset=".78" stop-color="#7aa2f7"/>
+      <stop offset=".91" stop-color="#c4a7e7"/><stop offset="1" stop-color="#f7768e"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#7dcfff" stroke-opacity=".045"/>
+    </pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <g id="card">
+      <rect x="12" y="12" width="576" height="156" rx="12" fill="#0b0c0e" stroke="#3b3d57"/>
+      <rect x="13" y="13" width="574" height="154" rx="11" fill="url(#grid)"/>
+      <path d="M24 13H576" stroke="url(#spectrum)" stroke-width="2" opacity=".85"/>
+      <path d="M24 157H576" stroke="#3b3d57" opacity=".55"/>
+      <path d="M24 28V20H32M568 20H576V28M24 142V150H32M568 150H576V142" fill="none" stroke="#565f89"/>
+    </g>
+  </defs>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <!-- WEBSITE -->
+    <g transform="translate(0 0)">
+      <use href="#card"/>
+      <rect x="13" y="13" width="4" height="154" rx="2" fill="#f7768e" filter="url(#glow)"/>
+      <circle cx="39" cy="39" r="4" fill="#73daca" filter="url(#glow)"/>
+      <text x="52" y="43" fill="#73daca" font-size="9" font-weight="700" letter-spacing="2">PRIMARY SURFACE</text>
+      <text x="36" y="83" fill="#fffdf5" font-size="24" font-weight="700">Website</text>
+      <text x="36" y="109" fill="#a9b1d6" font-size="11">Enter the complete Canticle experience.</text>
+      <text x="36" y="143" fill="#f7768e" font-size="10" letter-spacing="1.2">canticle.cc</text>
+      <g transform="translate(457 46)" filter="url(#glow)">
+        <rect width="86" height="58" rx="10" fill="#070807" stroke="#f7768e" stroke-width="2"/>
+        <text x="14" y="39" fill="#9ece6a" font-size="25" font-weight="700">❯</text>
+        <rect x="58" y="17" width="12" height="26" fill="#f7768e"/>
+      </g>
+      <text x="548" y="143" text-anchor="end" fill="#f7768e" font-size="18">↗</text>
+    </g>
+
+    <!-- RESEARCH -->
+    <g transform="translate(600 0)">
+      <use href="#card"/>
+      <rect x="13" y="13" width="4" height="154" rx="2" fill="#f780e2" filter="url(#glow)"/>
+      <circle cx="39" cy="39" r="4" fill="#f780e2" filter="url(#glow)"/>
+      <text x="52" y="43" fill="#f780e2" font-size="9" font-weight="700" letter-spacing="2">RESEARCH SURFACE</text>
+      <text x="36" y="83" fill="#fffdf5" font-size="24" font-weight="700">Research</text>
+      <text x="36" y="109" fill="#a9b1d6" font-size="11">Current paths, systems, analysis, and evidence.</text>
+      <text x="36" y="143" fill="#f780e2" font-size="10" letter-spacing="1.2">canticle.cc/research</text>
+      <g transform="translate(455 43)" fill="none" stroke="#f780e2" filter="url(#glow)">
+        <path d="M8 57L31 28L52 47L78 14" stroke-width="2"/>
+        <circle cx="8" cy="57" r="4" fill="#0b0c0e"/><circle cx="31" cy="28" r="4" fill="#0b0c0e"/>
+        <circle cx="52" cy="47" r="4" fill="#0b0c0e"/><circle cx="78" cy="14" r="4" fill="#0b0c0e"/>
+      </g>
+      <text x="548" y="143" text-anchor="end" fill="#f780e2" font-size="18">↗</text>
+    </g>
+
+    <!-- DOCUMENTATION -->
+    <g transform="translate(0 180)">
+      <use href="#card"/>
+      <rect x="13" y="13" width="4" height="154" rx="2" fill="#c4a7e7" filter="url(#glow)"/>
+      <circle cx="39" cy="39" r="4" fill="#c4a7e7" filter="url(#glow)"/>
+      <text x="52" y="43" fill="#c4a7e7" font-size="9" font-weight="700" letter-spacing="2">RUNTIME CONTRACT</text>
+      <text x="36" y="83" fill="#fffdf5" font-size="24" font-weight="700">Documentation</text>
+      <text x="36" y="109" fill="#a9b1d6" font-size="11">Install, concepts, retrieval, MIRL, MCP, and SDK.</text>
+      <text x="36" y="143" fill="#c4a7e7" font-size="10" letter-spacing="1.2">canticle.cc/documentation</text>
+      <g transform="translate(462 43)" fill="none" stroke="#c4a7e7" stroke-width="2" filter="url(#glow)">
+        <path d="M20 9H3V66H20M58 9H75V66H58"/>
+        <path d="M27 22H54M27 37H64M27 52H49" opacity=".75"/>
+      </g>
+      <text x="548" y="143" text-anchor="end" fill="#c4a7e7" font-size="18">↗</text>
+    </g>
+
+    <!-- LAB NOTES -->
+    <g transform="translate(600 180)">
+      <use href="#card"/>
+      <rect x="13" y="13" width="4" height="154" rx="2" fill="#7dcfff" filter="url(#glow)"/>
+      <circle cx="39" cy="39" r="4" fill="#7dcfff" filter="url(#glow)"/>
+      <text x="52" y="43" fill="#7dcfff" font-size="9" font-weight="700" letter-spacing="2">LIVE RESEARCH LOG</text>
+      <text x="36" y="83" fill="#fffdf5" font-size="24" font-weight="700">Lab Notes</text>
+      <text x="36" y="109" fill="#a9b1d6" font-size="11">Public updates and technical field notes.</text>
+      <text x="36" y="143" fill="#7dcfff" font-size="10" letter-spacing="1.2">canticle.cc/lab-notes</text>
+      <g transform="translate(452 43)" filter="url(#glow)">
+        <rect width="90" height="62" rx="7" fill="#070807" stroke="#7dcfff"/>
+        <text x="12" y="24" fill="#9ece6a" font-size="14">❯</text>
+        <path d="M31 20H71M13 37H64M13 49H51" stroke="#7dcfff" stroke-width="2" opacity=".65"/>
+      </g>
+      <text x="548" y="143" text-anchor="end" fill="#7dcfff" font-size="18">↗</text>
+    </g>
+
+    <!-- PROJECTS -->
+    <g transform="translate(0 360)">
+      <use href="#card"/>
+      <rect x="13" y="13" width="4" height="154" rx="2" fill="#73daca" filter="url(#glow)"/>
+      <circle cx="39" cy="39" r="4" fill="#73daca" filter="url(#glow)"/>
+      <text x="52" y="43" fill="#73daca" font-size="9" font-weight="700" letter-spacing="2">BUILD INDEX</text>
+      <text x="36" y="83" fill="#fffdf5" font-size="24" font-weight="700">Projects</text>
+      <text x="36" y="109" fill="#a9b1d6" font-size="11">Systems and experiments moving through the lab.</text>
+      <text x="36" y="143" fill="#73daca" font-size="10" letter-spacing="1.2">canticle.cc/projects</text>
+      <g transform="translate(464 44)" fill="#73daca" filter="url(#glow)">
+        <rect width="27" height="27" rx="4" opacity=".9"/><rect x="38" width="27" height="27" rx="4" opacity=".5"/>
+        <rect y="38" width="27" height="27" rx="4" opacity=".5"/><rect x="38" y="38" width="27" height="27" rx="4" opacity=".9"/>
+      </g>
+      <text x="548" y="143" text-anchor="end" fill="#73daca" font-size="18">↗</text>
+    </g>
+
+    <!-- EVIDENCE -->
+    <g transform="translate(600 360)">
+      <use href="#card"/>
+      <rect x="13" y="13" width="4" height="154" rx="2" fill="#e0af68" filter="url(#glow)"/>
+      <circle cx="39" cy="39" r="4" fill="#e0af68" filter="url(#glow)"/>
+      <text x="52" y="43" fill="#e0af68" font-size="9" font-weight="700" letter-spacing="2">MEASURED EVIDENCE</text>
+      <text x="36" y="83" fill="#fffdf5" font-size="24" font-weight="700">Benchmarks</text>
+      <text x="36" y="109" fill="#a9b1d6" font-size="11">Results kept beside workload, method, and context.</text>
+      <text x="36" y="143" fill="#e0af68" font-size="10" letter-spacing="1.2">canticle.cc/benchmarks</text>
+      <g transform="translate(454 45)" fill="#e0af68" filter="url(#glow)">
+        <rect x="3" y="42" width="14" height="24" opacity=".45"/><rect x="27" y="28" width="14" height="38" opacity=".65"/>
+        <rect x="51" y="12" width="14" height="54" opacity=".9"/><path d="M0 67H82" stroke="#e0af68"/>
+      </g>
+      <text x="548" y="143" text-anchor="end" fill="#e0af68" font-size="18">↗</text>
+    </g>
+
+    <!-- SDK -->
+    <g transform="translate(0 540)">
+      <use href="#card"/>
+      <rect x="13" y="13" width="4" height="154" rx="2" fill="#7aa2f7" filter="url(#glow)"/>
+      <circle cx="39" cy="39" r="4" fill="#7aa2f7" filter="url(#glow)"/>
+      <text x="52" y="43" fill="#7aa2f7" font-size="9" font-weight="700" letter-spacing="2">AGENT INTEGRATION</text>
+      <text x="36" y="83" fill="#fffdf5" font-size="24" font-weight="700">Python SDK</text>
+      <text x="36" y="109" fill="#a9b1d6" font-size="11">Build custom agents on the public SEAM surface.</text>
+      <text x="36" y="143" fill="#7aa2f7" font-size="10" letter-spacing="1.2">canticle.cc/documentation</text>
+      <g transform="translate(455 48)" fill="none" stroke="#7aa2f7" stroke-width="3" filter="url(#glow)">
+        <path d="M28 0L7 29L28 58M58 0L79 29L58 58"/>
+        <path d="M49 2L37 56" opacity=".6"/>
+      </g>
+      <text x="548" y="143" text-anchor="end" fill="#7aa2f7" font-size="18">↗</text>
+    </g>
+
+    <!-- CONTACT -->
+    <g transform="translate(600 540)">
+      <use href="#card"/>
+      <rect x="13" y="13" width="4" height="154" rx="2" fill="#ff9e64" filter="url(#glow)"/>
+      <circle cx="39" cy="39" r="4" fill="#ff9e64" filter="url(#glow)"/>
+      <text x="52" y="43" fill="#ff9e64" font-size="9" font-weight="700" letter-spacing="2">OPEN A CHANNEL</text>
+      <text x="36" y="83" fill="#fffdf5" font-size="24" font-weight="700">Contact</text>
+      <text x="36" y="109" fill="#a9b1d6" font-size="11">Research, engineering, and collaboration inquiries.</text>
+      <text x="36" y="143" fill="#ff9e64" font-size="10" letter-spacing="1.2">canticle.cc/contact</text>
+      <g transform="translate(454 43)" fill="none" stroke="#ff9e64" filter="url(#glow)">
+        <circle cx="42" cy="34" r="7" fill="#ff9e64"/>
+        <circle cx="42" cy="34" r="21" opacity=".7"/><circle cx="42" cy="34" r="36" opacity=".35"/>
+        <path d="M42 0V12M42 56V68M8 34H20M64 34H76"/>
+      </g>
+      <text x="548" y="143" text-anchor="end" fill="#ff9e64" font-size="18">↗</text>
+    </g>
+  </g>
+</svg>
