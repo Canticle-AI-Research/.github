@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
   <title id="title">Canticle Research — Ghost in the SEAM</title>
-  <desc id="desc">A cyberpunk parody research console showing an experimental Ghost agent shell beside the SEAM canonical memory path.</desc>
+  <desc id="desc">The Ghost in the SEAM cyber-anime shell, with RGB neural circuitry, beside the SEAM canonical memory path.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#070807"/>
@@ -108,7 +108,7 @@
       <path d="M835 80H1171" stroke="url(#spectrum)" stroke-width="2" filter="url(#soft-glow)"/>
       <ellipse cx="1008" cy="301" rx="160" ry="200" fill="#c4a7e7" opacity=".09" filter="url(#wide-glow)"/>
       <g clip-path="url(#shell)">
-        <image x="794" y="72" width="425" height="465" preserveAspectRatio="xMidYMid meet" href="ghost-in-the-seam-character.png" xlink:href="ghost-in-the-seam-character.png"/>
+        <image x="794" y="72" width="425" height="465" preserveAspectRatio="xMidYMid meet" href="ghost-in-the-seam-character-v2.png" xlink:href="ghost-in-the-seam-character-v2.png"/>
         <rect x="805" y="80" width="366" height="420" fill="url(#scan)" opacity=".34"/>
       </g>
       <path d="M825 100V88H837M1157 88H1169V100M825 474V486H837M1157 486H1169V474" fill="none" stroke="#c4a7e7" stroke-width="2" opacity=".8"/>
