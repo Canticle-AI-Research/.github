@@ -44,6 +44,13 @@ NETWORKS = [
     [(882, 304), (909, 322), (937, 303), (929, 348), (902, 371), (948, 377)],
 ]
 
+SEAM_SQUARES = [
+    ((38, 312, 149, 369), (228, 120, 208)),  # RAW
+    ((177, 312, 288, 369), (196, 167, 231)),  # MIRL
+    ((316, 312, 427, 369), (115, 218, 202)),  # SQLite
+    ((455, 312, 567, 369), (125, 207, 255)),  # PACK
+]
+
 
 def hue_color(position: float) -> tuple[int, int, int]:
     """Interpolate through the canonical Canticle RGB-cycle stops."""
@@ -63,6 +70,17 @@ def armor_mask() -> Image.Image:
     return mask.filter(ImageFilter.GaussianBlur(7))
 
 
+def logo_mask(base: Image.Image) -> Image.Image:
+    """Select the colored Canticle lockup without tinting its dark ground."""
+    hsv = base.convert("RGB").convert("HSV")
+    saturation = hsv.getchannel("S").point(lambda value: 255 if value > 55 else 0)
+    value = hsv.getchannel("V").point(lambda level: 255 if level > 70 else 0)
+    colored = ImageChops.multiply(saturation, value)
+    region = Image.new("L", SIZE, 0)
+    ImageDraw.Draw(region).rectangle((18, 17, 262, 82), fill=255)
+    return ImageChops.multiply(colored, region).filter(ImageFilter.GaussianBlur(0.8))
+
+
 def add_armor_cycle(base: Image.Image, phase: float, mask: Image.Image) -> Image.Image:
     color = hue_color(phase)
     screen_color = Image.new("RGB", SIZE, color)
@@ -70,6 +88,36 @@ def add_armor_cycle(base: Image.Image, phase: float, mask: Image.Image) -> Image
     strength = 0.17 + 0.07 * (0.5 + 0.5 * math.sin(phase * math.tau))
     frame_mask = mask.point(lambda value: round(value * strength))
     return Image.composite(screened, base.convert("RGB"), frame_mask).convert("RGBA")
+
+
+def add_logo_cycle(frame: Image.Image, phase: float, mask: Image.Image) -> Image.Image:
+    color = hue_color(phase * 2)
+    solid = Image.new("RGB", SIZE, color)
+    frame_mask = mask.point(lambda value: round(value * 0.90))
+    colored = Image.composite(solid, frame.convert("RGB"), frame_mask)
+    glow = mask.filter(ImageFilter.GaussianBlur(7)).point(lambda value: round(value * 0.55))
+    glow_layer = Image.new("RGBA", SIZE, (*color, 0))
+    glow_layer.putalpha(glow)
+    return Image.alpha_composite(colored.convert("RGBA"), glow_layer)
+
+
+def add_seam_square_breath(frame: Image.Image, phase: float) -> Image.Image:
+    """Pulse the real SEAM memory stages without changing their assigned colors."""
+    result = frame.convert("RGB")
+    for index, (bounds, color) in enumerate(SEAM_SQUARES):
+        pulse = 0.5 - 0.5 * math.cos(math.tau * (phase * 2 + index * 0.11))
+        core = Image.new("L", SIZE, 0)
+        ImageDraw.Draw(core).rounded_rectangle(
+            bounds, radius=7, fill=48, outline=255, width=2
+        )
+        halo = core.filter(ImageFilter.GaussianBlur(10))
+        glow_alpha = halo.point(lambda value: round(value * (0.18 + 0.72 * pulse)))
+        glow_layer = Image.new("RGBA", SIZE, (*color, 0))
+        glow_layer.putalpha(glow_alpha)
+        result = Image.alpha_composite(result.convert("RGBA"), glow_layer).convert("RGB")
+        core_alpha = core.point(lambda value: round(value * (0.10 + 0.52 * pulse)))
+        result = Image.composite(Image.new("RGB", SIZE, color), result, core_alpha)
+    return result.convert("RGBA")
 
 
 def add_neural_sparkles(frame: Image.Image, phase: float) -> Image.Image:
@@ -123,13 +171,16 @@ def add_live_border(frame: Image.Image, phase: float) -> Image.Image:
 def main() -> None:
     resampling = getattr(Image, "Resampling", Image).LANCZOS
     base = Image.open(SOURCE).convert("RGBA").resize(SIZE, resampling)
-    mask = armor_mask()
+    armor = armor_mask()
+    logo = logo_mask(base)
 
     with tempfile.TemporaryDirectory(prefix="canticle-hero-") as temporary:
         frame_dir = Path(temporary)
         for index in range(FRAMES):
             phase = index / FRAMES
-            frame = add_armor_cycle(base, phase, mask)
+            frame = add_armor_cycle(base, phase, armor)
+            frame = add_logo_cycle(frame, phase, logo)
+            frame = add_seam_square_breath(frame, phase)
             frame = add_neural_sparkles(frame, phase)
             frame = add_live_border(frame, phase)
             frame.convert("RGB").save(frame_dir / f"frame-{index:03d}.png", optimize=True)

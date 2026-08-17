@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
   <title id="title">Canticle Research — Ghost in the SEAM</title>
-  <desc id="desc">The Ghost in the SEAM cyber-anime shell, with RGB neural circuitry, beside the SEAM canonical memory path.</desc>
+  <desc id="desc">Canticle's Ghost visual beside the lab's open-source AI, safety, and emergence thesis, with SEAM identified as the source-linked memory foundation.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#070807"/>
@@ -62,22 +62,22 @@
     <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
       <circle cx="525" cy="53" r="4" fill="#73daca" filter="url(#soft-glow)"/>
       <text x="538" y="57" fill="#73daca" font-size="10" letter-spacing="2">SOURCE LINK ACTIVE</text>
-      <text x="798" y="57" fill="#565f89" font-size="9" letter-spacing="2">CONCEPT SHELL / IN DEVELOPMENT</text>
+      <text x="798" y="57" fill="#565f89" font-size="9" letter-spacing="2">SOLO RESEARCH / OPEN SOURCE</text>
     </g>
 
     <path d="M0 101H1200" stroke="#3b3d57"/>
     <path d="M0 98H1200" stroke="url(#spectrum)" stroke-width="1" opacity=".38" filter="url(#soft-glow)"/>
 
     <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
-      <text x="47" y="146" fill="#f780e2" font-size="11" font-weight="700" letter-spacing="3">GHOST IN THE SEAM / AGENT MEMORY</text>
-      <text x="45" y="205" fill="#fffdf5" font-size="43">Memory with</text>
-      <text x="45" y="258" fill="url(#headline)" font-size="50" font-weight="700" filter="url(#soft-glow)">evidence intact.</text>
-      <text x="48" y="301" fill="#a9b1d6" font-size="15">A mind can move through the shell.</text>
-      <text x="48" y="326" fill="#a9b1d6" font-size="15">Its memory should keep the receipts.</text>
+      <text x="47" y="146" fill="#f780e2" font-size="11" font-weight="700" letter-spacing="3">OPEN-SOURCE AI / SAFETY / EMERGENCE</text>
+      <text x="45" y="205" fill="#fffdf5" font-size="43">Studying emergence</text>
+      <text x="45" y="258" fill="url(#headline)" font-size="50" font-weight="700" filter="url(#soft-glow)">as a system property.</text>
+      <text x="48" y="301" fill="#a9b1d6" font-size="15">Hypothesis: consciousness will emerge from interacting intelligent systems.</text>
+      <text x="48" y="326" fill="#a9b1d6" font-size="15">Memory, feedback, learning, models, and agents form the whole.</text>
     </g>
 
     <g aria-label="SEAM canonical memory rail" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
-      <text x="48" y="376" fill="#565f89" font-size="9" letter-spacing="2">CANONICAL MEMORY RAIL</text>
+      <text x="48" y="376" fill="#565f89" font-size="9" letter-spacing="2">SEAM / SOURCE-LINKED MEMORY FOUNDATION</text>
       <path d="M48 432H785" stroke="url(#spectrum)" stroke-width="2" stroke-dasharray="6 8" opacity=".75"/>
       <path d="M775 425L788 432L775 439" fill="none" stroke="#7dcfff" stroke-width="2"/>
 
@@ -103,7 +103,7 @@
       </g>
     </g>
 
-    <g aria-label="Experimental Ghost agent shell">
+    <g aria-label="Ghost desktop-agent prototype">
       <path d="M835 80H1171V500H805V118Z" fill="#0b0c0e" fill-opacity=".45" stroke="#7dcfff" stroke-opacity=".35"/>
       <path d="M835 80H1171" stroke="url(#spectrum)" stroke-width="2" filter="url(#soft-glow)"/>
       <ellipse cx="1008" cy="301" rx="160" ry="200" fill="#c4a7e7" opacity=".09" filter="url(#wide-glow)"/>
@@ -115,8 +115,8 @@
       <g transform="translate(846 438)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
         <rect width="291" height="39" rx="6" fill="#070807" fill-opacity=".88" stroke="#3b3d57"/>
         <circle cx="17" cy="19.5" r="3.5" fill="#73daca" filter="url(#soft-glow)"/>
-        <text x="31" y="17" fill="#fffdf5" font-size="9" font-weight="700" letter-spacing="1.5">GHOST // EXPERIMENTAL AGENT</text>
-        <text x="31" y="31" fill="#565f89" font-size="7.5" letter-spacing="1.1">SHELL STATUS: SOURCE-LINKED</text>
+        <text x="31" y="17" fill="#fffdf5" font-size="9" font-weight="700" letter-spacing="1.5">GHOST // DESKTOP AGENT</text>
+        <text x="31" y="31" fill="#565f89" font-size="7.5" letter-spacing="1.1">PROTOTYPE: SEAM-BACKED</text>
       </g>
     </g>
 
