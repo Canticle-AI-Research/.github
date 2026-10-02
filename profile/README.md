@@ -3,7 +3,7 @@
     <picture>
       <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/canticle-hero-ghost.png" />
       <source type="image/gif" srcset="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/canticle-hero-ghost.gif" />
-      <img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/canticle-hero-ghost.png" width="100%" alt="Open Canticle Research — open-source AI, safety, emergence, memory, fine-tuning, and the SEAM framework" />
+      <img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/canticle-hero-ghost.png" width="100%" alt="Canticle Research — AI safety, emergence, memory, fine-tuning, and the SEAM framework" />
     </picture>
   </a>
 </p>
@@ -19,9 +19,9 @@
 </p>
 
 <p align="center">
-  <strong>Canticle is independent, open-source AI research.</strong><br />
+  <strong>Canticle is independent AI research, published as source-available software.</strong><br />
   The work studies safety and emergence across memory, fine-tuning, emotional systems, models, agents, and their interactions.<br />
-  SEAM is the source-linked memory framework built from the ground up beneath that research.
+  SEAM is the source-linked memory framework built from the ground up beneath that research — free to self-host under BUSL-1.1, with per-layer licensing across the ecosystem (PolyForm Shield for Ghost, Apache-2.0 for thin clients).
 </p>
 
 <table>
@@ -96,7 +96,7 @@
 
 <p align="center">
   <strong>Canticle Research</strong><br />
-  Independent open-source research at the frontier of AI safety and emergence.<br />
+  Independent research at the frontier of AI safety and emergence.<br />
   Built from first principles by one developer.<br /><br />
   <a href="https://canticle.cc">canticle.cc</a> · Founded by BlackhatShiftey
 </p>
