@@ -19,9 +19,9 @@
 </p>
 
 <p align="center">
-  <strong>Canticle is independent AI research, published as source-available software.</strong><br />
+  <strong>Canticle Research is an independent research organization.</strong><br />
   The work studies safety and emergence across memory, fine-tuning, emotional systems, models, agents, and their interactions.<br />
-  SEAM is the source-linked memory framework built from the ground up beneath that research — free to self-host under BUSL-1.1, with per-layer licensing across the ecosystem (PolyForm Shield for Ghost, Apache-2.0 for thin clients).
+  Research outputs and software are published under their attached terms: the published SEAM Distributed Runtime is free to self-host under BUSL-1.1, Ghost uses PolyForm Shield, and designated thin clients use Apache-2.0. No single software license describes all Canticle research.
 </p>
 
 <table>
@@ -45,7 +45,7 @@
   <table>
     <tr><td><strong>AI safety</strong></td><td>Source boundaries, uncertainty, contradiction, prompt-injection containment, privacy, and operator authority.</td></tr>
     <tr><td><strong>Emergence</strong></td><td>How combinations of models, memory, agents, learning, and feedback can produce system-level behavior.</td></tr>
-    <tr><td><strong>Open source</strong></td><td>Inspectable systems, reproducible methods, auditable claims, and research others can build on.</td></tr>
+    <tr><td><strong>Open research</strong></td><td>Inspectable systems, reproducible methods, auditable claims, and software licensing stated per layer rather than generalized across the organization.</td></tr>
     <tr><td><strong>Fine-tuning</strong></td><td>Model adaptation and evaluation under explicit workloads, constraints, and evidence.</td></tr>
     <tr><td><strong>Memory & agents</strong></td><td>Long-term context, graphs, retrieval, reasoning, tools, and persistent agent systems.</td></tr>
     <tr><td><strong>Emotional engine</strong></td><td>Planned research for agent systems; its architecture and capabilities are still being defined.</td></tr>
