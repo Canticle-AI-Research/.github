@@ -1,11 +1,11 @@
 <p align="center">
   <a href="https://canticle.cc"><picture>
-    <source media="(max-width: 600px)" srcset="./assets/canticle-research-hero-mobile.png" />
-    <img src="./assets/canticle-research-hero.png" width="100%" alt="Canticle Research — six distinct girls from Canticle’s Downloads artwork, pink terminal panels and the RGB palette" />
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/canticle-research-hero-mobile.png" />
+    <img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/canticle-research-hero.png" width="100%" alt="Canticle Research — six distinct girls from Canticle’s Downloads artwork, pink terminal panels and the RGB palette" />
   </picture></a>
 </p>
 
-<p align="center"><a href="https://canticle.cc/research"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/hs1-voxel-field-top.png" /><source type="image/gif" srcset="./assets/hs1-voxel-field-top.gif" /><img src="./assets/hs1-voxel-field-top.png" width="100%" alt="Floating RGB blocks — Ghost in the SEAM, SEAM-backed agent, source-linked recall" /></picture></a></p>
+<p align="center"><a href="https://canticle.cc/research"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/hs1-voxel-field-top.png" /><source type="image/gif" srcset="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/hs1-voxel-field-top.gif" /><img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/hs1-voxel-field-top.png" width="100%" alt="Floating RGB blocks — Ghost in the SEAM, SEAM-backed agent, source-linked recall" /></picture></a></p>
 
 # Canticle Research
 
@@ -16,15 +16,15 @@ Canticle is a solo-founded research group studying **AI behavior, safety, memory
 **[SEAM](https://github.com/Canticle-AI-Research/Seam) · [Ghost](https://github.com/Canticle-AI-Research/Ghost) · [Canticle.cc](https://canticle.cc) · [Founder](https://github.com/BlackhatShiftey)**
 
 <table>
-<tr><td width="50%"><a href="https://canticle.cc/research"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/links/research.png" /><source type="image/gif" srcset="./assets/links/research.gif" /><img src="./assets/links/research.png" width="100%" alt="Open Canticle Research" /></picture></a></td><td width="50%"><a href="https://canticle.cc/lab-notes"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/links/lab-notes.png" /><source type="image/gif" srcset="./assets/links/lab-notes.gif" /><img src="./assets/links/lab-notes.png" width="100%" alt="Open Canticle Lab Notes" /></picture></a></td></tr>
-<tr><td width="50%"><a href="https://canticle.cc/projects"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/links/projects.png" /><source type="image/gif" srcset="./assets/links/projects.gif" /><img src="./assets/links/projects.png" width="100%" alt="Open Canticle Projects" /></picture></a></td><td width="50%"><a href="https://canticle.cc/benchmarks"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/links/benchmarks.png" /><source type="image/gif" srcset="./assets/links/benchmarks.gif" /><img src="./assets/links/benchmarks.png" width="100%" alt="Open Canticle Benchmarks" /></picture></a></td></tr>
-<tr><td width="50%"><a href="https://canticle.cc/documentation"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/links/documentation.png" /><source type="image/gif" srcset="./assets/links/documentation.gif" /><img src="./assets/links/documentation.png" width="100%" alt="Open Canticle Documentation" /></picture></a></td><td width="50%"><a href="https://canticle.cc"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/links/website.png" /><source type="image/gif" srcset="./assets/links/website.gif" /><img src="./assets/links/website.png" width="100%" alt="Open Canticle Website" /></picture></a></td></tr>
+<tr><td width="50%"><a href="https://canticle.cc/research"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/links/research.png" /><source type="image/gif" srcset="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/links/research.gif" /><img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/links/research.png" width="100%" alt="Open Canticle Research" /></picture></a></td><td width="50%"><a href="https://canticle.cc/lab-notes"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/links/lab-notes.png" /><source type="image/gif" srcset="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/links/lab-notes.gif" /><img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/links/lab-notes.png" width="100%" alt="Open Canticle Lab Notes" /></picture></a></td></tr>
+<tr><td width="50%"><a href="https://canticle.cc/projects"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/links/projects.png" /><source type="image/gif" srcset="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/links/projects.gif" /><img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/links/projects.png" width="100%" alt="Open Canticle Projects" /></picture></a></td><td width="50%"><a href="https://canticle.cc/benchmarks"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/links/benchmarks.png" /><source type="image/gif" srcset="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/links/benchmarks.gif" /><img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/links/benchmarks.png" width="100%" alt="Open Canticle Benchmarks" /></picture></a></td></tr>
+<tr><td width="50%"><a href="https://canticle.cc/documentation"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/links/documentation.png" /><source type="image/gif" srcset="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/links/documentation.gif" /><img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/links/documentation.png" width="100%" alt="Open Canticle Documentation" /></picture></a></td><td width="50%"><a href="https://canticle.cc"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/links/website.png" /><source type="image/gif" srcset="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/links/website.gif" /><img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/links/website.png" width="100%" alt="Open Canticle Website" /></picture></a></td></tr>
 </table>
 
 ## `// research surface`
 
 <table>
-<tr><td width="50%"><img src="./assets/downloads-scene-01.png" width="100%" alt="Mint-haired girl in a neon city — existing Canticle Downloads artwork" /></td><td width="50%"><img src="./assets/downloads-scene-02.png" width="100%" alt="Pink-haired girl beside a magenta wall — existing Canticle Downloads artwork" /></td></tr>
+<tr><td width="50%"><img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/downloads-scene-01.png" width="100%" alt="Mint-haired girl in a neon city — existing Canticle Downloads artwork" /></td><td width="50%"><img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/downloads-scene-02.png" width="100%" alt="Pink-haired girl beside a magenta wall — existing Canticle Downloads artwork" /></td></tr>
 </table>
 
 
@@ -49,7 +49,7 @@ How persistent internal state, feedback, learning, and interactions between comp
 
 Shared semantics and machine-native communication with explicit meaning, traceability, and policy boundaries, including the problem of hidden or steganographic channels.
 
-<p align="center"><img src="./assets/cyber-divider-static.png" width="100%" alt="" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/cyber-divider-static.png" width="100%" alt="" /></p>
 
 ## `// SEAM`
 
@@ -64,7 +64,7 @@ source evidence → MIRL → SQLite
                      bounded context
 ```
 
-<p align="center"><a href="https://github.com/Canticle-AI-Research/Seam/blob/main/docs/RAG_ARCHITECTURE.md"><img src="./assets/canonical-memory.png" width="100%" alt="SEAM canonical memory: source evidence through RAW, MIRL, SQLite, retrieval and bounded PACK context" /></a></p>
+<p align="center"><a href="https://github.com/Canticle-AI-Research/Seam/blob/main/docs/RAG_ARCHITECTURE.md"><img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/canonical-memory.png" width="100%" alt="SEAM canonical memory: source evidence through RAW, MIRL, SQLite, retrieval and bounded PACK context" /></a></p>
 
 CLI, MCP, REST, and the Textual dashboard provide operator and integration surfaces.
 
@@ -80,7 +80,7 @@ Current work emphasizes operator setup, distribution boundaries, documentation, 
 ## `// Ghost`
 
 <table>
-<tr><td width="50%"><img src="./assets/downloads-scene-03.png" width="100%" alt="Dark-haired girl in a cyan and pink city — existing Canticle Downloads artwork" /></td><td width="50%"><img src="./assets/downloads-scene-04.png" width="100%" alt="Blue-haired girl among pink-lit servers — existing Canticle Downloads artwork" /></td></tr>
+<tr><td width="50%"><img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/downloads-scene-03.png" width="100%" alt="Dark-haired girl in a cyan and pink city — existing Canticle Downloads artwork" /></td><td width="50%"><img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/downloads-scene-04.png" width="100%" alt="Blue-haired girl among pink-lit servers — existing Canticle Downloads artwork" /></td></tr>
 </table>
 
 
@@ -91,18 +91,18 @@ Ghost's durable memory is supplied by an authenticated SEAM service. Ghost uses 
 
 Its current command-line surfaces support one-shot and interactive use, memory recall, and operator-scoped file reading and repository search. Shell execution is opt-in, with terminal approval enabled by default. Desktop, expressive-avatar, and voice work remain in development.
 
-<p align="center"><img src="./assets/ghost-ensemble.png" width="240" alt="Ghost ensemble — mint-haired girl and her four RGB spirit companions" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/ghost-ensemble.png" width="240" alt="Ghost ensemble — mint-haired girl and her four RGB spirit companions" /></p>
 
 The anime girl and her spirit companions represent Ghost in this profile. The artwork does not imply a shipped avatar interface. The present agent uses configured provider models; a future Ghost LLM remains a research goal.
 
 **[Repository](https://github.com/Canticle-AI-Research/Ghost) · [Engineering documentation](https://github.com/Canticle-AI-Research/Ghost/blob/main/docs/README.md) · [Installation](https://github.com/Canticle-AI-Research/Ghost/blob/main/docs/operations/INSTALLATION.md) · [Trust boundaries](https://github.com/Canticle-AI-Research/Ghost/blob/main/docs/security/TRUST_BOUNDARIES.md)**
 
-<p align="center"><img src="./assets/cyber-divider-static.png" width="100%" alt="" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/cyber-divider-static.png" width="100%" alt="" /></p>
 
 ## `// experimental horizon`
 
 <table>
-<tr><td width="50%"><img src="./assets/downloads-scene-05.png" width="100%" alt="Lavender-haired girl in a violet workspace — existing Canticle Downloads artwork" /></td><td width="50%"><img src="./assets/downloads-scene-06.png" width="100%" alt="Orange-haired girl in a warm-lit laboratory — existing Canticle Downloads artwork" /></td></tr>
+<tr><td width="50%"><img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/downloads-scene-05.png" width="100%" alt="Lavender-haired girl in a violet workspace — existing Canticle Downloads artwork" /></td><td width="50%"><img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/downloads-scene-06.png" width="100%" alt="Orange-haired girl in a warm-lit laboratory — existing Canticle Downloads artwork" /></td></tr>
 </table>
 
 
@@ -138,4 +138,4 @@ Canticle's research and software carry the terms attached to each artifact. **Th
 
 Built from first principles by one researcher. Guided by evidence, explicit boundaries, and work others can inspect.
 
-<p align="center"><a href="https://canticle.cc/contact"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/links/contact.png" /><source type="image/gif" srcset="./assets/links/contact.gif" /><img src="./assets/links/contact.png" width="50%" alt="Contact Canticle Research" /></picture></a></p>
+<p align="center"><a href="https://canticle.cc/contact"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/links/contact.png" /><source type="image/gif" srcset="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/links/contact.gif" /><img src="https://raw.githubusercontent.com/Canticle-AI-Research/.github/main/profile/assets/links/contact.png" width="50%" alt="Contact Canticle Research" /></picture></a></p>
